@@ -20,6 +20,8 @@ html {
 .body-bg {
     background-image: url('../img/body.png');
 }
+
+  
 // Variables
 $transition_speed: all .3s ease-in-out;
 $primary_color: #1f0f70;
@@ -633,7 +635,7 @@ ul {
     width: 90%;
 }
 .footer {
-    background-image: url('../img/footer.png');
+    background-color: #232324;
     .footer-info {
         .white-horz-line {
              height: 10px;
@@ -700,9 +702,7 @@ ul {
     .dropdown-header-top {
         top: 65px;
     }
-    .bg_img {
-        background-size: auto;
-    }
+    
     .banner-slide {
         margin-top: 65px;
         height: calc(60vh - 65px);
@@ -836,9 +836,6 @@ ul {
     .dropdown-header-top {
         top: 70px;
     }
-    .bg_img {
-        background-size: auto;
-    }
     .banner-slide {
         margin-top: 70px;
         height: calc(75vh - 70px);
@@ -932,9 +929,6 @@ ul {
     .header {
         height: 80px;
     }
-    .bg_img {
-          background-size: auto;
-    }
     .banner-slide {
         margin-top: 80px;
         height: calc(100vh - 80px);
@@ -985,7 +979,7 @@ ul {
         margin-top: 1.5px;
     }
     .footer {
-        background-image: url('../img/footer.png');
+        background-color: #232324;
         .footer-info {
             .white-horz-line {
                  height: 9px;
